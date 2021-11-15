@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f740755f3aee6b2489ea7669349c6007, type: 3}
+  m_Name: BundleConfig
+  m_EditorClassIdentifier: 
+  allBundle:
+  - bundleName: config
+    paths:
+    - Assets/Res/Config
+    split: 0
+    needInstantiate: 0
+    usePool: 0
+    files:
+    - AudioConfig
+    - BundleConfig
+    - GameConfig
+    fileSuffixIndex: 010000000100000001000000
+    fileIndex: 000000000000000000000000
+  - bundleName: 'map
+
+'
+    paths:
+    - Assets/Res/Map/Prefab
+    split: 0
+    needInstantiate: 1
+    usePool: 1
+    files:
+    - GameObject
+    fileSuffixIndex: 00000000
+    fileIndex: 00000000

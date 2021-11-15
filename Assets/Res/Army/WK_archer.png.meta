@@ -1,0 +1,2276 @@
+fileFormatVersion: 2
+guid: 23d81f5dd07fcc04ea1ea75c5fec7cf5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6858481835526991155
+    second: WK_archer_walk_0Degree_0
+  - first:
+      213: -3253131191336964529
+    second: WK_archer_walk_0Degree_1
+  - first:
+      213: -7207017147746280116
+    second: WK_archer_walk_0Degree_2
+  - first:
+      213: -921820390529995301
+    second: WK_archer_walk_0Degree_3
+  - first:
+      213: 5368668614834672836
+    second: WK_archer_walk_0Degree_4
+  - first:
+      213: 9060425358141626137
+    second: WK_archer_walk_0Degree_5
+  - first:
+      213: -3632603062104754334
+    second: WK_archer_walk_0Degree_6
+  - first:
+      213: 2080604891195080135
+    second: WK_archer_walk_0Degree_7
+  - first:
+      213: -7684337571537316934
+    second: WK_archer_walk_0Degree_8
+  - first:
+      213: 2362744845224472129
+    second: WK_archer_walk_0Degree_9
+  - first:
+      213: -8663344461110262056
+    second: WK_archer_walk_0Degree_10
+  - first:
+      213: 2304998724572778075
+    second: WK_archer_walk_0Degree_11
+  - first:
+      213: -9135397334015639749
+    second: WK_archer_walk_0Degree_12
+  - first:
+      213: 4667375920256543836
+    second: WK_archer_walk_0Degree_13
+  - first:
+      213: 4733749568492011961
+    second: WK_archer_walk_0Degree_14
+  - first:
+      213: 4753911285640035020
+    second: WK_archer_walk_0Degree_15
+  - first:
+      213: 7191049184697994099
+    second: WK_archer_walk_0Degree_16
+  - first:
+      213: 6253646423476421633
+    second: WK_archer_walk_0Degree_17
+  - first:
+      213: -761968149724397151
+    second: WK_archer_walk_45Degree_0
+  - first:
+      213: -2385745673507163064
+    second: WK_archer_walk_45Degree_1
+  - first:
+      213: 7363645387699118465
+    second: WK_archer_walk_45Degree_2
+  - first:
+      213: -8841789259161125167
+    second: WK_archer_walk_45Degree_3
+  - first:
+      213: -6449189878810527768
+    second: WK_archer_walk_45Degree_4
+  - first:
+      213: -1608979130554642233
+    second: WK_archer_walk_45Degree_5
+  - first:
+      213: 917122200423304985
+    second: WK_archer_walk_45Degree_6
+  - first:
+      213: -4661393867084788859
+    second: WK_archer_walk_45Degree_7
+  - first:
+      213: 7065925369745236839
+    second: WK_archer_walk_45Degree_8
+  - first:
+      213: -4663335181717484116
+    second: WK_archer_walk_45Degree_9
+  - first:
+      213: 967200790159912445
+    second: WK_archer_walk_45Degree_10
+  - first:
+      213: -1924859726671847709
+    second: WK_archer_walk_45Degree_11
+  - first:
+      213: -201647066824178829
+    second: WK_archer_walk_45Degree_12
+  - first:
+      213: 2028714085590769563
+    second: WK_archer_walk_45Degree_13
+  - first:
+      213: 7572943857917448086
+    second: WK_archer_walk_45Degree_14
+  - first:
+      213: -7194593110549125100
+    second: WK_archer_walk_45Degree_15
+  - first:
+      213: 1336682227901267439
+    second: WK_archer_walk_45Degree_16
+  - first:
+      213: 9003607097937135616
+    second: WK_archer_walk_45Degree_17
+  - first:
+      213: 3718131719364598999
+    second: WK_archer_walk_90Degree_0
+  - first:
+      213: 8054361152918799438
+    second: WK_archer_walk_90Degree_1
+  - first:
+      213: -6139253021827751167
+    second: WK_archer_walk_90Degree_2
+  - first:
+      213: 7737569459465110137
+    second: WK_archer_walk_90Degree_3
+  - first:
+      213: -2986134952816036746
+    second: WK_archer_walk_90Degree_4
+  - first:
+      213: -7980372178298177600
+    second: WK_archer_walk_90Degree_5
+  - first:
+      213: 5845074236433916123
+    second: WK_archer_walk_90Degree_6
+  - first:
+      213: -7805352533933662047
+    second: WK_archer_walk_90Degree_7
+  - first:
+      213: -5375982034712803372
+    second: WK_archer_walk_90Degree_8
+  - first:
+      213: -7719859356709775504
+    second: WK_archer_walk_90Degree_9
+  - first:
+      213: -7462631360862984233
+    second: WK_archer_walk_90Degree_10
+  - first:
+      213: 669715014118193048
+    second: WK_archer_walk_90Degree_11
+  - first:
+      213: -2662479021564187552
+    second: WK_archer_walk_90Degree_12
+  - first:
+      213: 9140179000018848724
+    second: WK_archer_walk_90Degree_13
+  - first:
+      213: -9026312462530243938
+    second: WK_archer_walk_90Degree_14
+  - first:
+      213: 8203482557870500553
+    second: WK_archer_walk_90Degree_15
+  - first:
+      213: -8234514262239408603
+    second: WK_archer_walk_90Degree_16
+  - first:
+      213: -6635884730084655385
+    second: WK_archer_walk_90Degree_17
+  - first:
+      213: -3811577022208666206
+    second: WK_archer_walk_135Degree_0
+  - first:
+      213: 330066894163971642
+    second: WK_archer_walk_135Degree_1
+  - first:
+      213: -52182366814974025
+    second: WK_archer_walk_135Degree_2
+  - first:
+      213: 4047096381321403340
+    second: WK_archer_walk_135Degree_3
+  - first:
+      213: -8621643374951499683
+    second: WK_archer_walk_135Degree_4
+  - first:
+      213: 4896761385374833845
+    second: WK_archer_walk_135Degree_5
+  - first:
+      213: -1181444843567132843
+    second: WK_archer_walk_135Degree_6
+  - first:
+      213: -6368171427153287075
+    second: WK_archer_walk_135Degree_7
+  - first:
+      213: -6773606916560100665
+    second: WK_archer_walk_135Degree_8
+  - first:
+      213: -1505169239055743551
+    second: WK_archer_walk_135Degree_9
+  - first:
+      213: 1761153197138478028
+    second: WK_archer_walk_135Degree_10
+  - first:
+      213: -3019005943992828811
+    second: WK_archer_walk_135Degree_11
+  - first:
+      213: 7891648257203717316
+    second: WK_archer_walk_135Degree_12
+  - first:
+      213: 7594923839287128957
+    second: WK_archer_walk_135Degree_13
+  - first:
+      213: 9195366272525271832
+    second: WK_archer_walk_135Degree_14
+  - first:
+      213: -7194309983923751114
+    second: WK_archer_walk_135Degree_15
+  - first:
+      213: 5937761402551480207
+    second: WK_archer_walk_135Degree_16
+  - first:
+      213: 3098651909363382791
+    second: WK_archer_walk_135Degree_17
+  - first:
+      213: 7566658636090054110
+    second: WK_archer_walk_180Degree_0
+  - first:
+      213: -6002194554900688930
+    second: WK_archer_walk_180Degree_1
+  - first:
+      213: 7454493438053613
+    second: WK_archer_walk_180Degree_2
+  - first:
+      213: 6345921954799535496
+    second: WK_archer_walk_180Degree_3
+  - first:
+      213: -6319860249638069873
+    second: WK_archer_walk_180Degree_4
+  - first:
+      213: -4252097898330136773
+    second: WK_archer_walk_180Degree_5
+  - first:
+      213: 3337495378778782513
+    second: WK_archer_walk_180Degree_6
+  - first:
+      213: -3810033373015277186
+    second: WK_archer_walk_180Degree_7
+  - first:
+      213: 7529339613749354174
+    second: WK_archer_walk_180Degree_8
+  - first:
+      213: 2981216750577762411
+    second: WK_archer_walk_180Degree_9
+  - first:
+      213: -6443676798800552661
+    second: WK_archer_walk_180Degree_10
+  - first:
+      213: 1753517781019252878
+    second: WK_archer_walk_180Degree_11
+  - first:
+      213: -5468635757657088388
+    second: WK_archer_walk_180Degree_12
+  - first:
+      213: 2418818150137847215
+    second: WK_archer_walk_180Degree_13
+  - first:
+      213: 1178595173692684732
+    second: WK_archer_walk_180Degree_14
+  - first:
+      213: 9156417823922666918
+    second: WK_archer_walk_180Degree_15
+  - first:
+      213: -6017441078408190708
+    second: WK_archer_walk_180Degree_16
+  - first:
+      213: -6695734614774082881
+    second: WK_archer_walk_180Degree_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 977
+        width: 186
+        height: 241
+      alignment: 9
+      pivot: {x: 0.6182796, y: 0.1493776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d2e0144e83e2f50800000000000000
+      internalID: 6858481835526991155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 709
+        width: 187
+        height: 231
+      alignment: 9
+      pivot: {x: 0.62032086, y: 0.121212125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4eed94da6e8ad2d0800000000000000
+      internalID: -3253131191336964529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_2
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1172
+        width: 186
+        height: 227
+      alignment: 9
+      pivot: {x: 0.6236559, y: 0.11013216}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4d1f6aa6188bfb90800000000000000
+      internalID: -7207017147746280116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_3
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 693
+        width: 186
+        height: 218
+      alignment: 9
+      pivot: {x: 0.6236559, y: 0.07798165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd6fb32d390533f0800000000000000
+      internalID: -921820390529995301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1624
+        width: 186
+        height: 225
+      alignment: 9
+      pivot: {x: 0.62903225, y: 0.10222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4520829a7518a40800000000000000
+      internalID: 5368668614834672836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_5
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 478
+        width: 187
+        height: 231
+      alignment: 9
+      pivot: {x: 0.631016, y: 0.121212125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91719f9ebd81dbd70800000000000000
+      internalID: 9060425358141626137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 244
+        width: 187
+        height: 234
+      alignment: 9
+      pivot: {x: 0.631016, y: 0.13247864}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267ff39e2c6669dc0800000000000000
+      internalID: -3632603062104754334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_7
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 0
+        width: 187
+        height: 237
+      alignment: 9
+      pivot: {x: 0.631016, y: 0.14345992}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cd7f91002bcfdc10800000000000000
+      internalID: 2080604891195080135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_8
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 0
+        width: 188
+        height: 237
+      alignment: 9
+      pivot: {x: 0.63297874, y: 0.15189873}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab3945a21bfbb5590800000000000000
+      internalID: -7684337571537316934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_9
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 244
+        width: 188
+        height: 230
+      alignment: 9
+      pivot: {x: 0.63297874, y: 0.13478261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e6d7a1be72ac020800000000000000
+      internalID: 2362744845224472129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_10
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 475
+        width: 188
+        height: 218
+      alignment: 9
+      pivot: {x: 0.63297874, y: 0.09174312}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6ccacec1e95c780800000000000000
+      internalID: -8663344461110262056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1588
+        width: 187
+        height: 214
+      alignment: 9
+      pivot: {x: 0.631016, y: 0.07476635}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e83e9a0200dff10800000000000000
+      internalID: 2304998724572778075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_12
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 911
+        width: 187
+        height: 216
+      alignment: 9
+      pivot: {x: 0.631016, y: 0.074074075}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f72ffa68c883180800000000000000
+      internalID: -9135397334015639749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_13
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1399
+        width: 187
+        height: 225
+      alignment: 9
+      pivot: {x: 0.631016, y: 0.10222222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c6a10bba9d5c040800000000000000
+      internalID: 4667375920256543836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 940
+        width: 186
+        height: 232
+      alignment: 9
+      pivot: {x: 0.62903225, y: 0.125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b100ade628a1b140800000000000000
+      internalID: 4733749568492011961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_15
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 0
+        width: 187
+        height: 239
+      alignment: 9
+      pivot: {x: 0.62566847, y: 0.14225942}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca7b42802949f140800000000000000
+      internalID: 4753911285640035020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 734
+        width: 187
+        height: 243
+      alignment: 9
+      pivot: {x: 0.62032086, y: 0.15226337}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b4948322dbbc360800000000000000
+      internalID: 7191049184697994099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_0Degree_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1218
+        width: 186
+        height: 241
+      alignment: 9
+      pivot: {x: 0.6182796, y: 0.1493776}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1044436f94a69c650800000000000000
+      internalID: 6253646423476421633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_0
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 893
+        width: 190
+        height: 180
+      alignment: 9
+      pivot: {x: 0.34210527, y: 0.094444446}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a104814102fc65f0800000000000000
+      internalID: -761968149724397151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_1
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 893
+        width: 188
+        height: 179
+      alignment: 9
+      pivot: {x: 0.34042552, y: 0.09497207}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8443e2e33f024eed0800000000000000
+      internalID: -2385745673507163064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_2
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1073
+        width: 185
+        height: 184
+      alignment: 9
+      pivot: {x: 0.33513513, y: 0.11956522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181efb1477ce03660800000000000000
+      internalID: 7363645387699118465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_3
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 702
+        width: 186
+        height: 186
+      alignment: 9
+      pivot: {x: 0.33870968, y: 0.12903225}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de36dcb387ab4580800000000000000
+      internalID: -8841789259161125167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1300
+        width: 185
+        height: 191
+      alignment: 9
+      pivot: {x: 0.34594595, y: 0.14659686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7347879ffdf76a0800000000000000
+      internalID: -6449189878810527768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 702
+        width: 185
+        height: 196
+      alignment: 9
+      pivot: {x: 0.35135135, y: 0.15816326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c016486102cba9e0800000000000000
+      internalID: -1608979130554642233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_6
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1849
+        width: 185
+        height: 199
+      alignment: 9
+      pivot: {x: 0.35675675, y: 0.16582915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91f0bdb38c54abc00800000000000000
+      internalID: 917122200423304985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_7
+      rect:
+        serializedVersion: 2
+        x: 1080
+        y: 475
+        width: 186
+        height: 202
+      alignment: 9
+      pivot: {x: 0.36021507, y: 0.17821783}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b0a3a99f66f4fb0800000000000000
+      internalID: -4661393867084788859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_8
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 475
+        width: 185
+        height: 199
+      alignment: 9
+      pivot: {x: 0.36216217, y: 0.17085427}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 763e519dfa53f0260800000000000000
+      internalID: 7065925369745236839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_9
+      rect:
+        serializedVersion: 2
+        x: 1795
+        y: 475
+        width: 186
+        height: 195
+      alignment: 9
+      pivot: {x: 0.3655914, y: 0.15897436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cadc5211c51884fb0800000000000000
+      internalID: -4663335181717484116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_10
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 898
+        width: 185
+        height: 194
+      alignment: 9
+      pivot: {x: 0.36216217, y: 0.15979381}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd65f38eff2c6d00800000000000000
+      internalID: 967200790159912445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_11
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 702
+        width: 186
+        height: 191
+      alignment: 9
+      pivot: {x: 0.36021507, y: 0.15183246}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eed445e6468945e0800000000000000
+      internalID: -1924859726671847709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_12
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 702
+        width: 186
+        height: 184
+      alignment: 9
+      pivot: {x: 0.3548387, y: 0.11413044}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37302f3af0b933df0800000000000000
+      internalID: -201647066824178829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_13
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 893
+        width: 186
+        height: 178
+      alignment: 9
+      pivot: {x: 0.3548387, y: 0.07865169}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f187656b0772c10800000000000000
+      internalID: 2028714085590769563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_14
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 893
+        width: 187
+        height: 179
+      alignment: 9
+      pivot: {x: 0.34759358, y: 0.07821229}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f452bc050881960800000000000000
+      internalID: 7572943857917448086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_15
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 702
+        width: 186
+        height: 184
+      alignment: 9
+      pivot: {x: 0.33870968, y: 0.097826086}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4182f3e3faba72c90800000000000000
+      internalID: -7194593110549125100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_16
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 702
+        width: 186
+        height: 185
+      alignment: 9
+      pivot: {x: 0.33333334, y: 0.10810811}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fedf1ab7769dc8210800000000000000
+      internalID: 1336682227901267439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_45Degree_17
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 702
+        width: 190
+        height: 181
+      alignment: 9
+      pivot: {x: 0.34210527, y: 0.09392265}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0088ab1d3fc33fc70800000000000000
+      internalID: 9003607097937135616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_0
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1684
+        width: 181
+        height: 188
+      alignment: 9
+      pivot: {x: 0.37016574, y: 0.13829787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dcd6d86915799330800000000000000
+      internalID: 3718131719364598999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_1
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1257
+        width: 181
+        height: 187
+      alignment: 9
+      pivot: {x: 0.37016574, y: 0.13903743}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e444e647bc6d6cf60800000000000000
+      internalID: 8054361152918799438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_2
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 1073
+        width: 174
+        height: 184
+      alignment: 9
+      pivot: {x: 0.3505747, y: 0.13586956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 103a6bf57edfccaa0800000000000000
+      internalID: -6139253021827751167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_3
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1268
+        width: 171
+        height: 184
+      alignment: 9
+      pivot: {x: 0.34502923, y: 0.13586956}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97244509d6e516b60800000000000000
+      internalID: 7737569459465110137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_4
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1637
+        width: 169
+        height: 185
+      alignment: 9
+      pivot: {x: 0.34319526, y: 0.13513513}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 674b506e41e1f86d0800000000000000
+      internalID: -2986134952816036746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_5
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1822
+        width: 167
+        height: 186
+      alignment: 9
+      pivot: {x: 0.34131736, y: 0.13440861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7702129c5004190800000000000000
+      internalID: -7980372178298177600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_6
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1268
+        width: 165
+        height: 186
+      alignment: 9
+      pivot: {x: 0.33939394, y: 0.13440861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd06e6cac00ed1150800000000000000
+      internalID: 5845074236433916123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_7
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1454
+        width: 164
+        height: 186
+      alignment: 9
+      pivot: {x: 0.33536586, y: 0.13440861}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a060349931dda390800000000000000
+      internalID: -7805352533933662047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_8
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 1073
+        width: 172
+        height: 184
+      alignment: 9
+      pivot: {x: 0.37209302, y: 0.13043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d7cf0692dca465b0800000000000000
+      internalID: -5375982034712803372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_9
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1073
+        width: 174
+        height: 182
+      alignment: 9
+      pivot: {x: 0.37931034, y: 0.13186814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 077965f01dc8dd490800000000000000
+      internalID: -7719859356709775504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_10
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 893
+        width: 169
+        height: 180
+      alignment: 9
+      pivot: {x: 0.36094674, y: 0.12777779}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d76216e0586f6890800000000000000
+      internalID: -7462631360862984233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_11
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1822
+        width: 164
+        height: 182
+      alignment: 9
+      pivot: {x: 0.33536586, y: 0.13736264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 897b24dc14e4b4900800000000000000
+      internalID: 669715014118193048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_12
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 1640
+        width: 164
+        height: 182
+      alignment: 9
+      pivot: {x: 0.33536586, y: 0.13186814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cacb1bf69fc0bd0800000000000000
+      internalID: -2662479021564187552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_13
+      rect:
+        serializedVersion: 2
+        x: 1452
+        y: 1268
+        width: 166
+        height: 184
+      alignment: 9
+      pivot: {x: 0.33734939, y: 0.13043478}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dbcb9faf5078de70800000000000000
+      internalID: 9140179000018848724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_14
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1452
+        width: 170
+        height: 185
+      alignment: 9
+      pivot: {x: 0.34117648, y: 0.12432432}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92143783a81cb280800000000000000
+      internalID: -9026312462530243938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_15
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1073
+        width: 171
+        height: 185
+      alignment: 9
+      pivot: {x: 0.34502923, y: 0.11891892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9caebf62cef98d170800000000000000
+      internalID: 8203482557870500553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_16
+      rect:
+        serializedVersion: 2
+        x: 1869
+        y: 702
+        width: 175
+        height: 185
+      alignment: 9
+      pivot: {x: 0.34857142, y: 0.11891892}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e055528e029bd80800000000000000
+      internalID: -8234514262239408603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_90Degree_17
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 893
+        width: 182
+        height: 188
+      alignment: 9
+      pivot: {x: 0.36813188, y: 0.13829787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee7dd41ff998e3a0800000000000000
+      internalID: -6635884730084655385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_0
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1358
+        width: 174
+        height: 230
+      alignment: 9
+      pivot: {x: 0.40229884, y: 0.20434782}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5163594ee8a1bc0800000000000000
+      internalID: -3811577022208666206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_1
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 475
+        width: 173
+        height: 222
+      alignment: 9
+      pivot: {x: 0.39884394, y: 0.18468468}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e82ca6712a49400800000000000000
+      internalID: 330066894163971642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_2
+      rect:
+        serializedVersion: 2
+        x: 1266
+        y: 475
+        width: 172
+        height: 217
+      alignment: 9
+      pivot: {x: 0.39534885, y: 0.17050691}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf4472f96c964ff0800000000000000
+      internalID: -52182366814974025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_3
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 475
+        width: 172
+        height: 211
+      alignment: 9
+      pivot: {x: 0.39534885, y: 0.15165877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccb5e6467bc2a2830800000000000000
+      internalID: 4047096381321403340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_4
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1092
+        width: 171
+        height: 208
+      alignment: 9
+      pivot: {x: 0.39181286, y: 0.13461539}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d587ae7a705c95880800000000000000
+      internalID: -8621643374951499683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_5
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1491
+        width: 170
+        height: 206
+      alignment: 9
+      pivot: {x: 0.39411765, y: 0.116504855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bcdd1d298ac4f340800000000000000
+      internalID: 4896761385374833845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_6
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1081
+        width: 171
+        height: 200
+      alignment: 9
+      pivot: {x: 0.39766082, y: 0.095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55fc671ac2aaa9fe0800000000000000
+      internalID: -1181444843567132843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_7
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1643
+        width: 170
+        height: 198
+      alignment: 9
+      pivot: {x: 0.4, y: 0.09090909}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d586cb7b3d5bf97a0800000000000000
+      internalID: -6368171427153287075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_8
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1482
+        width: 169
+        height: 202
+      alignment: 9
+      pivot: {x: 0.3964497, y: 0.11386139}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c26e42c5605ff1a0800000000000000
+      internalID: -6773606916560100665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_9
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1281
+        width: 170
+        height: 201
+      alignment: 9
+      pivot: {x: 0.4, y: 0.11940298}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c5cc334d809c1be0800000000000000
+      internalID: -1505169239055743551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_10
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1444
+        width: 170
+        height: 199
+      alignment: 9
+      pivot: {x: 0.4, y: 0.10552764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc38b76708fd07810800000000000000
+      internalID: 1761153197138478028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_11
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 1073
+        width: 168
+        height: 195
+      alignment: 9
+      pivot: {x: 0.39285713, y: 0.08717949}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57cb38dd6165a16d0800000000000000
+      internalID: -3019005943992828811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_12
+      rect:
+        serializedVersion: 2
+        x: 931
+        y: 1841
+        width: 171
+        height: 192
+      alignment: 9
+      pivot: {x: 0.39766082, y: 0.067708336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c445f63744c48d60800000000000000
+      internalID: 7891648257203717316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_13
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 1697
+        width: 170
+        height: 203
+      alignment: 9
+      pivot: {x: 0.39411765, y: 0.113300495}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d73fad00ef6966960800000000000000
+      internalID: 7594923839287128957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_14
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 475
+        width: 171
+        height: 220
+      alignment: 9
+      pivot: {x: 0.39181286, y: 0.17727272}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8130a7dd7e08c9f70800000000000000
+      internalID: 9195366272525271832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_15
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 475
+        width: 172
+        height: 227
+      alignment: 9
+      pivot: {x: 0.39534885, y: 0.1938326}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637bd2ccf2da82c90800000000000000
+      internalID: -7194309983923751114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1802
+        width: 173
+        height: 231
+      alignment: 9
+      pivot: {x: 0.39884394, y: 0.1991342}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f2b18398a276250800000000000000
+      internalID: 5937761402551480207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_135Degree_17
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 1127
+        width: 174
+        height: 231
+      alignment: 9
+      pivot: {x: 0.39655173, y: 0.2034632}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70ab0348e7f900b20800000000000000
+      internalID: 3098651909363382791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 189
+        height: 244
+      alignment: 9
+      pivot: {x: 0.38624337, y: 0.19672132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed51acc80fb220960800000000000000
+      internalID: 7566658636090054110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_1
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 0
+        width: 190
+        height: 237
+      alignment: 9
+      pivot: {x: 0.38421053, y: 0.17299578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edf4c527adbe3bca0800000000000000
+      internalID: -6002194554900688930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_2
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 244
+        width: 189
+        height: 228
+      alignment: 9
+      pivot: {x: 0.3809524, y: 0.15350877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec0b5182db7a1000800000000000000
+      internalID: 7454493438053613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_3
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 244
+        width: 190
+        height: 222
+      alignment: 9
+      pivot: {x: 0.37894738, y: 0.13063063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 885cd20556e311850800000000000000
+      internalID: 6345921954799535496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_4
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 244
+        width: 189
+        height: 217
+      alignment: 9
+      pivot: {x: 0.37566137, y: 0.10599078}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f89163646985b48a0800000000000000
+      internalID: -6319860249638069873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 244
+        width: 189
+        height: 231
+      alignment: 9
+      pivot: {x: 0.37566137, y: 0.15584415}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fd8d37d738df4c0800000000000000
+      internalID: -4252097898330136773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1696
+        width: 189
+        height: 237
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.17299578}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13bfd9b3d5a215e20800000000000000
+      internalID: 3337495378778782513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_7
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 0
+        width: 189
+        height: 236
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.17372881}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e718a0b65da002bc0800000000000000
+      internalID: -3810033373015277186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 491
+        width: 189
+        height: 243
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.20164609}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe9ece8c769d7860800000000000000
+      internalID: 7529339613749354174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1459
+        width: 189
+        height: 237
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.18987341}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60c1a8e6d86f5920800000000000000
+      internalID: 2981216750577762411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_10
+      rect:
+        serializedVersion: 2
+        x: 1699
+        y: 0
+        width: 189
+        height: 232
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.1724138}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d111077167396a0800000000000000
+      internalID: -6443676798800552661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_11
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 244
+        width: 189
+        height: 226
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.15486726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88dbfc912fb55810800000000000000
+      internalID: 1753517781019252878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_12
+      rect:
+        serializedVersion: 2
+        x: 1321
+        y: 244
+        width: 189
+        height: 222
+      alignment: 9
+      pivot: {x: 0.37037036, y: 0.13063063}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e99d2a0c08b14b0800000000000000
+      internalID: -5468635757657088388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_13
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 244
+        width: 190
+        height: 216
+      alignment: 9
+      pivot: {x: 0.3736842, y: 0.10185185}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faddb37ca4e519120800000000000000
+      internalID: 2418818150137847215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_14
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 189
+        height: 235
+      alignment: 9
+      pivot: {x: 0.37566137, y: 0.16595745}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb931f5e0163b5010800000000000000
+      internalID: 1178595173692684732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_15
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 0
+        width: 190
+        height: 243
+      alignment: 9
+      pivot: {x: 0.37894738, y: 0.18930042}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad37f18f71221f70800000000000000
+      internalID: 9156417823922666918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 189
+        height: 247
+      alignment: 9
+      pivot: {x: 0.3809524, y: 0.19838056}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05e2a09831cd7ca0800000000000000
+      internalID: -6017441078408190708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WK_archer_walk_180Degree_17
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 190
+        height: 244
+      alignment: 9
+      pivot: {x: 0.38421053, y: 0.19672132}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb29a18e7d8f313a0800000000000000
+      internalID: -6695734614774082881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,12 @@
+
+Library
+Temp
+Logs
+.idea
+*.sln
+
+*.csproj
+*.cache
+*.cache
+UserSettings/EditorUserSettings.asset
+UserSettings/.DS_Store

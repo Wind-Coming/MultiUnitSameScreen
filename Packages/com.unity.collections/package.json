@@ -1,0 +1,25 @@
+{
+  "name": "com.unity.collections",
+  "displayName": "Collections",
+  "version": "0.9.0-preview.6",
+  "unity": "2019.3",
+  "unityRelease": "12f1",
+  "dependencies": {
+    "com.unity.test-framework.performance": "2.0.8-preview",
+    "com.unity.burst": "1.3.0-preview.12"
+  },
+  "description": "The Collections package provides additional native collections like NativeQueue, NativeHashMap, NativeMultiHashMap and NativeList.",
+  "keywords": [
+    "dots",
+    "collections",
+    "unity"
+  ],
+  "upmCi": {
+    "footprint": "9297071fc7c736797e6aad936d9107ebebf82db6"
+  },
+  "repository": {
+    "url": "https://github.com/Unity-Technologies/dots.git",
+    "type": "git",
+    "revision": "1ea1988e0b0946afa2e17972b28cc2be990c480d"
+  }
+}

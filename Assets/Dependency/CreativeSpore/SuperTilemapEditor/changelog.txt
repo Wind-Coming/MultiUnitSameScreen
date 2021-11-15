@@ -1,0 +1,412 @@
+--- v1.6.3 ---
+- ADDED ScreenToLocalPosition to TilemapUtils
+- ADDED ScreenToWorldPosition to TilemapUtils
+- FIXED Pathfinding crossing colliders
+- FIXED: Should not grab hot control with an active capture
+- FIXED autotiling bug
+
+--- v1.6.2 ---
+- ADDED SelectedTilemapIndex property to TilemapGroup
+- ADDED SkipOtherBrushes to Autotiling Modes
+- FIXED performance issues with Unity 2018.3
+- FIXED brush not visible in Prefab Mode
+
+--- v1.6.1 ---
+- ADDED collision message detection to STETilemap
+- FIXED some warning messages : SendMessage cannot be called during Awake, CheckConsistency, or OnValidate
+- FIXED Unity2018.3 warnings and compatibility issues
+- FIXED using Flood Fill and Erase tool when pressing Control key
+- FIXED performance issue in the Editor when updating a tilemap colliders
+
+
+--- v1.6.0 ---
+- ADDED rotation to the tile properties for the prefab data
+- FIXED some cases where Pixel Snap value is not saved
+- FIXED random serialization errors when making a build
+- FIXED exception when changing Group Autotiling Mask in Unity 2018.3.0b2
+- FIXED MapPathFinding to consider empty grid positions with no tiles as non passable
+- FIXED typo with method UpdateChunkRendererProperties
+- FIXED gc allocation in TilemapChunk.OnWillRenderObject
+- FIXED bug in PathfindingBehaviour when using Synchronous compute mode
+- FIXED bug making the tilemap transform position to change when the tilemap was a child of a parent gameObject with a rotation.
+- FIXED remove tiles when using a drawing tool different than pencil if the selection is empty
+- FIXED  rotation and flip flags when using 3D prefab tiles in an XZ tilemap
+
+--- v1.5.0 ---
+- ADDED ClearTiles button near ClearMap, to clear the tiles but keep the map bounds.
+- ADDED Merger Tile Parameters option in Tile Properties Window when multiple tiles are selected.
+- ADDED MaxDistance to pathfinding to limit the path to a certain distance
+- ADDED AnimDelay parameter to AnimBrush to add a delay in the animation for each rendered tile
+- ADDED PassableDetectionMode to MapPathFinding with support for raycasting 2D and 3D to detect if the path to a tile is not blocked by a collider
+- CHANGED the way AllowBlockedDestination is managed
+- ADDED parameter "cost factor" to MapTileNode for future use.
+- MOVED MapPathFinding folder inside Scripts Folder (NOTE: you need to manually remove the previous folder after updating the tool "\CreativeSpore\SuperTilemapEditor\Extra\Tileset - Samples\Kenneys - Rogue Like\MapPathFinding")
+- FIXED pathfinding diagonal move when it's in between tiles passable but with blocking colliders
+- FIXED TilemapUtils.GetMouseGridX/Y when using a camera in perspective mode.
+- FIXED some TileDataAttribute exceptions
+- FIXED when selecting a tilemap, the current editor tool is disabled. Now, the previous tool is enabled again after unselecting the Tilemap
+- FIXED MapPathFinding to take into account tilemap with a position different than (0, 0)
+- FIXED out of bound exception when using the Atlas Editor with a Tileset exported from Tiled
+- FIXED Refresh and Clear Map button now affect to all selected tilemaps
+- FIXED tile selection with Ctrl now selects the first non empty tile found in a Tilemap Group from top to bottom
+- FIXED out of bounds exception when a tileView is selected the number of tiles is less than tileViewWidth * tileViewHeight
+- FIXED division by zero exception when slicing a tileset and the height of the texture is less than the tile height, so no tiles are sliced. Now an error message will inform about the problem.
+- FIXED crash when using Deep Profiling in Unity 2017.3.1f1
+- FIXED bug in PathFinding when computing more than a path during the same Update
+
+--- v1.4.9 ---
+- ADDED button to generate a procedural map in the RogueLikeMapGenerator component.
+- ADDED RefreshTile to STETilemap component to reset the update flag and force a tile brush refresh after calling STETilemap.UpdateMesh
+- IMPROVED Tileset Inspector drawing performance
+- IMPROVED Tileset Inspector Performance
+- IMPROVED: cached all properties in TilemapEditor
+- FIXED AtlasCreatorWindow null exception when saving an atlas texture if any of the tile textures was compressed
+- FIXED exception error using AtlasCreatorEditor with no Tileset set
+- FIXED removed redundant last vertex in polygon colliders. This also fix some issues with navmesh.
+- FIXED: not overwriting tilemap orderInLayer when editing multiple tilemaps
+- FIXED allow changing the tileset parameter TileRowLength
+- FIXED removing wrong references of tiles when tiles are removed from a tileset
+- FIXED class conflicts in PixelEdit
+
+--- v1.4.8 ---
+- ADDED Undo option in Paint tab to enable undo/redo while doing vertex paint on a tilemap
+- ADDED eBlengingMode.None that will just set the color, including the same alpha component
+- ADDED experimental option to set the SortOrder of tiles in the Rendereing options of a tilemap (Only BottomLeft and TopRight are available)
+- ADDED GetGridPosition to TilemapUtils. It works the same as GetGridX and GetGridY but returns a vector2 with both values.
+- ADDED GetOrCreateTileSprite to TilemapUtils to create an sprite from a tile of a tileset
+- ADDED STETilemap method GetTileObject to get the instance created when the tile prefab property is set.
+- ADDED SetParam(string, string) method in ParameterContainer
+- ADDED Default Tilemap Window in TilemapGroup to assign default tilemaps for each tile in the palette
+- CHANGED TilemapUtilsEditor.CreateTilemapGroupPreviewTexture has been moved to TilemapUtils to allow being used in game
+- CHANGED MapPathFinding.ClearNodeDictionary visibility from private to public
+- OPTIMIZED TilemapGroupEditor inspector view (with cache for tilemapSerialized  and tilemapObjSerialized variables)
+- OPTIMIZED the tilemap DrawGizmos when drawing the colliders
+- FIXED Atlas Editor to keep the same tile order (usefull when adding extrusion to tilesets exported from Tiled tmx file or when using textures with multiple sprites)
+- FIXED EnumMaskField warning in Unity 2017
+- FIXED issue with Random Brush and Random Flags Enum
+
+--- v1.4.7 ---
++ ADDED experimental TileDataAttribute
+- CHANGED TileObjectbehaviour now has two methods static DoOnTilePrefabCreation and GetOrCreateSprite
+- CHANGED Asset/Create/SuperTilemapEditor menu priority to 50
+- CHANGED when a tileset is created, if a texture2D was selected, this texture will be assigned as atlas texture and the name of the tileset will the be name of the texture
+- IMPROVED TileObjectBehaviour using a cache of Sprites
+* FIXED null exception related with Brush Mask when creating a new tileset with no brushes in Unity 2017.3
+* FIXED sprite null error in TileObjectBehaviour when cached sprite is nulled after destroying atlas texture
+* FIXED Invalid Collider Array warning when generating tile colliders
+* FIXED tiles are now not stretched to fit the grid cell of a tilemap, instead they keep their aspect ratio
+* FIXED namespace issues when using the tool with other CreativeSpore tools
+* FIXED PathfindingBehaviour invalid cast error (displayed in the Roguelike demo scene when clicking on the map)
+
+--- v1.4.6 ---
++ ADDED IsPositionInsideTilemap and IsGridPositionInsideTilemap methods to STETilemap class
++ ADDED AllowBlockedDestionation to MapPathFinding. This will allow to find a path to a non passable target tile if the neighbor tile is passable.
++ ADDED GetBrush to STETilemap class to get the brush at some grid or local position of a tilemap
++ ADDED access properties to OnTilePrefabCreationData to get the Parameters, the Tile and the TilesetBrush when the event OnTilePrefabCreation is called when a prefab was attached to a tile and this is placed on a tilemap. (See TileObjectBehaviour component)
+- CHANGED OnTilePrefabCreation in TileObjectBehaviour component is now virtual.
+- CHANGED Shrink is now called Trim to specify when a tilemap is shrunk to the visible area
+- RENAMED STETilemap method SetTileData to SetTile for cases where the tileId, brushId and tile flags are set by parameters (to fix code errors, just change SetTileData to SetTile in the affected lines)
+- IMPROVED "Export to Png file" from Tilemap Render section. Now it creates a preview of the whole tilemap group area, including all tilemaps and also all elements in the scene.
+- IMPROVEMENTS in path finding (added Position to IPathNode and fixed a bug with node pool )
+* FIXED an issue with MapPathFinding nodes not being cached properly
+* FIXED bug when using experimental ENABLE_MERGED_SUBTILE_COLLIDERS with carpet brush when a tile has full colliders
+* FIXED bug related with tile chunks with more than one material in the material array (affecting lighting). The cause of this is unknown, but there are some reports of this bug.
+* FIXED updating neighbor brush tiles when changing a tile even if the tile is not a brush but autotiling is necessary.
+* FIXED Tilemap and TilemapGroup gameObject is created now as children of Context object (the gameObject selected)
+* FIXED tilemap and tilemapgroup gameObject is selected after its creation from the GameObject menu
+
+--- v1.4.5 ---
++ ADDED define SUPER_TILEMAP_EDITOR to current build define symbols
++ ADDED Vertex Color Painting mode in the tilemap inspector view to paint the tile vertices using a brush
++ ADDED Divide blending mode
++ ADDED IterateTilemapWithAction to TilemapGroup
+- REMOVED eBlendMode.Normal and use eBlendMode.AlphaBlending by default.
+- OPTIMIZED Tilemap color channel update
+* FIXED intensity in VertexPaintCircle to affect only the alpha
+- FIXED RemoveColorChannel to update the tilemap mesh properly after calling UpdateMesh
+
+--- v1.4.4 ---
++ IMPORTANT FIX: Tilemap has been renamed to STETilemap to fix issues using Unity 2017
++ ADDED TilemapVertexPaintUtils to help painting tilemap tiles
++ ADDED DrawDot to TilemapDrawingUtils
+- ADDED extra check in the collider generation of a tilemap to check if a neighbor tileId is valid
++ ADDED eBlendMode to specify the blending mode when setting the tile color
++ ADDED GetTileCenterPosition to TilemapUtils
+- CHANGE SetTileColor now uses a TileColor32 parameter to set the color of the tile vertices
+- CHANGED ClearColorChannel now is clearing the color channel with a clear color instead of removing the color channel and RemoveColorChannel is used to remove the color channel.
+- FIXED UpdateMesh now updates the tile color even if no tile was changed
+* FIXED when a tilemap component is removed the tilechunk children are removed as well
+* FIXED a bug in TilemapDrawingUtils.DrawLineMirrored when the start position was not (0, 0)
+- FIXED bug in TileGridControl where GUI.changed was set to false always when Display was being called
+
+--- v1.4.3.8 ---
+- Added GetTileFlagsFromTileData to Tileset class
+- Added Atlas Creator Window (to create an atlas using a collection of tile textures)
+- Added randomize pattern option to drawing tools
+- Added another method for drawing methods to use grid positions
+- Added randomize pattern option to TilemapDrawingUtils.FloodFill
+- Added support to import Tiled tilesets made of a collection of sprites
+- Changed Tilemap.SetMapBounds and MinMaxGridXY parameters are now read-only
+- Changed tilemap chunk renderer properties has been moved to a class (NOTE: these properties will be reset for all tilemaps created in previous versions)
+- Moved FindDefaultSpritematerial method to TilemapUtils
+- Fixed assert warning while importing a Tiled tmx in Unity 2017
+- Fixed tilemap tint color was set to default (0, 0, 0, 0) when a tilemap was being created in game
+- Fixed when a prefab is instantiated by a tile, the Z position remains with the same value set in the prefab (this was previously fixed but taking the instance Z position instead of the prefab Z position)
+
+--- v1.4.3.7 ---
+- Added OverlapRect method to TilemapUtils
+- Fixed copied tile collider data is not cleared now if the tile property window is closed
+- Fixed tilemap exportation to PNG now allowing flipped and rotates tiles and prefabs (prefabs will only be supported if there is a SpriteRenderer and they are rendered inside the tilemap borders)
+- Fixed build error with Pyxel Edit scripts
+
+--- v1.4.3.6 ---
+- Added Pyxel Edit importer thanks to (AndyGFX - CubesTeam)
+- Added tilemap render properties (shadow cast, light probes, etc) for the Renderer in the tilemapchunks
+- Added Collider Display Mode for the tilemaps to decide when the collider lines should be displayed (Selected, Parent Selected & Always)
+- Changed: the tilemap chunks now change the tag to be the same as the parent tilemap
+- Fixed some issues with Unity 2017.2.0b4
+
+--- v1.4.3.5 ---
+- Fixed issue when exporting some TMX fiels
+- Added Color tab to Tilemap for vertex painting
+- Added Export to Png option in the tilemap Render options
+- Added brush 47 (thanks to Nikola Kasabov)
+- Fixed issue when using polygon colliders in a tilemap with Unity 5.6.2
+
+--- v1.4.3.4 ---
+- Added event to tilemap OnTileChanged when a tile is set
+- Fixed code error when making a build
+- Fixed Optimize Texture Import Settings button now also fixes the Max Size of the atlas texture
+- Fixed issue when painting with drawing tools like line, rect or circle, the empty tiles were overwriting the previous tiles in the tilemap
+
+--- v1.4.3.3 ---
+- Support for Unity 5.6
+- Optimize Texture Import Settings button now also fixes the Max Size of the atlas texture
+- Fixed bug with autotiling mode group when using normal tiles
+- Fixed flickering issue when displaying a lot of tiles with prefabs attached displaying the prefab preview
+- Fixed when a prefab is instantiated by a tile, the Z position remains with the same value set in the prefab
+
+--- v1.4.3.2 ---
+- Added tile color channel (only by code to change the tile vertex color through the tilemap class using methods SetTileColor)
+- Fixed when changing the prefab data for a tile in the tile property window with a selection of tiles, the prefab is not set for all the tiles unless it was the modified property
+- Fixed bug with Animated and Random brush when changing the tiles in the list
+
+--- v1.4.3.1 ---
+- Fixed issues when using a bumped shader and directional light
+- Fixed importing sprites as tiles from a texture with multiple sprites
+- Fixed flags issue using Carpet and Road Brushes
+- Fixed Z position locked in tilemaps
+- Fixed some code errors when removing a brush
+- Fixed rotating tiles properly while painting a selection
+
+--- v1.4.3 ---
+- Added Autotiling section in Tile Property Window to change the tile autotiling group
+- Added Parallax Factor to tilemaps in Render section (Pixel Platform Demo has been updated to use this feature)
+- Added ChangeSpriteOnly attribute to TileObjectBehaviour to only change the sprite but not the layer and sorting layer
+- Added index accessor to ParameterContainer
+- Added an option in Tile Prefab section to display the prefab preview when there is a prefab attached.
+- Atlas Editor now saves an extra pixel when creating the final texture
+- Improved performance when calling UpdateMesh in a tilemap with 2D colliders
+- Removed some GC Allocations in Tilemap and TilemapChunk
+- Disabled merged subtile colliders by default. Uncomment the define ENABLE_MERGED_SUBTILE_COLLIDERS to enable it.
+- Default Inner Padding for new tilemaps is now 0 instead of 0.1 (use AtlasEditorWindow to extrude tiles to fix line artifacts)
+- Fixed bug when changing the atlas texture of a tileset for a texture set in multiple sprite mode with less than 2 sprites
+- Fixed m_markSceneDirtyOnNextUpdateMesh warning
+- Fixed Random Flags in RandomBrush ( Horizontal and Vertical Flip were swapped)
+- Fixed combine tile flags when a brush is using another brush to draw one of its tiles
+- Fixed some bugs related to collider 2D generation in tilemaps
+- Fixed issue when creating a tileset from a tmx file when the final atlas was bigger than 2048
+
+--- v1.4.2 ---
+- Added support for UNITY 5.5
+- Improved performance and reduced memory allocation when updating the tilemap
+- Added more painting tools: line, rectangle, filled rectangle, ellipse and filled ellipse
+- Flood Fill now supports a pattern from a tile selection
+- When a tilemap group is selected, the tilemap list will be display in the SceneView for a direct access
+- When a tile has attached a prefab, the prefab preview will be displayed in the tile palette instead of the tile
+- Added "Optimize Atlas Import Settings" button in the tileset inspector view to automatically change the import settings of the atlas texture to the recommended settings.
+- Added FindTilemapByName to TilemapGroup to acces a children tilemap
+- Added index property to tilemap group to access a tilemap by index of by name: tmapGroup[index] or tmapGroup["tilemapName"].
+- Added TileObjMesh component (more optimized version of TileObjectBehaviour)
+- Added GetParamsFromTileData to TilemapUtils to get a paramter from a brush or a tile directly from the tile data.
+- Added IterateTilemapWithAction to call a System.Action for all cells in a tilemap
+- Added support for selecting animated brushes in random brushes
+- Random brushes now works in a different way. Once the tile is randomly selected, it paint the tile but loose the random brush connection, so copy and paste that tile will not draw a new random tile.
+- Selecting a tile in a tilemap with right click will select the tile istead of the brush is ALT is being hold
+- Fixed some null exceptions when removing the atlas texture from the tileset in a scene with a tilemap using the tileset
+- Fixed in Atlas Editor Window, when adding padding to an atlas, the color between tiles was white with alpha, not transparent
+- Fixed instantiating tilemaps from a prefab was keeping the same Mesh reference for all instances. Now all instances will have its own Mesh.
+- Default tile size is now (32,32) when creating a new tilemap
+- Fixed moving the mouse over a tile parameter name field was unhighlighting the name field
+
+--- v1.4.1 ---
+- Added Brush Mask to brush palette to filter brushes by type
+- Added option Show In Palette to brushes to unhide them in the brush palette
+- Added the name of the brush in the brush list
+- Added Atlas Editor Window to modify the padding and extrude the tile color after creating the tileset
+- Added autocomple from tile selection to Carpet & Road brushes
+- Added a reset button to Tilemap\Map\CellSize to set the cell size that fits the pixels to units set in the tileset
+- Added new autotiling modes for brushes: EmptyCells & TilemapBounds
+- Added string type to tile parameters
+- Added Zoom slider to tile palette
+- When a tilemap linked to a prefab is refreshed, the game objects instantiated by tiles will fix the prefab connection, breaking the tilemap prefab link.
+- Visual improvements
+- Keypad '+' & '-' will cycle the tilemaps when painting in a tilemap inside a tilemap group
+- Autotiling between groups is now allowing group A to make autotiling with group B but not the opposite
+- Holding Control/Command key while right clicking when painting will take the first tile not empty from the list of tilemap in the tilemap group from bottom to top, and will select the tilemap where the tile was copied from.
+- The prefabs instantiated by a tile now are rotated 180� and 270� instead of negating both X & Y scale
+- Tilemap chunks are now hidden when instantiating a prefab and also during tilemap Awake event
+- Minimum tile size for a tileset is now (1,1)
+- Fixed animated brushes used in Carpet & Road brushes, now they are animated.
+- Fixed an bug setting the Z scale to 0 when a tile was instantiating a prefab
+- Fixed null exception when modifying a tile collider from Tile Property Window and there was no tilemap selected
+- Fixed some out of bounds exceptions when changing the tilemap tileset for another with less tiles
+- Fixed line artifacts due to float errors when calculating tile vertex position
+- Fixed null exception when selecting a brush from another tileset to be used by a brush to paint a tile
+- Fixed removing invalid brushes from tileset when they are deleted or the tileset has been changed
+- Fixed updating paint brush when cell size is changed
+- Fixed issue with BrushTileGridControl when using a grid with width != height
+
+
+--- v1.4.0 ---
+- Added support to edit tile colliders directly in the scene view when Colliders tab is selected
+- Added PhysicMaterial and PhysicMaterial2D property to tilemaps
+- Added support to edit multiple brushes
+- Changed the way a tilemap is highlighted when it's a child of a tilemap group
+- Added tilemap event OnMeshUpdated
+- The current selected tilemap colliders are now updated when the tile colliders are modified in the Tile Property Window
+- Fixed tilemap IsTrigger setter
+- Fixed some collider 2D generation issues
+
+--- v1.3.9 ---
+- Added Source HTML Documentation
+- Added GetMouseGridX, GetMouseGridY, GetGridX & GetGridY to helper class TilemapUtils
+- Updated Manual FAQ and added new section Advanced Topics
+- Fixed updating instantiated prefabs attached to a tile with tile flip and rotation
+- Fixed issues scrolling the tile palette
+- Fixed UVs for animated tiles
+
+--- v1.3.8 ---
+- Improved BrushUtil.GetGridX and BrushUtil.GetGridY precision
+- Added DisableTilePrefabCreation to tilemap class to disable the creation of tile prefabs
+- View Mode has been replaced for a popup list where you can select the tileview
+- Now the tile palette keeps the state between tilemaps using the same tileset
+- Now, to paint a tilemap, the Rect tool (T) should be selected, allowing rotating, scaling and dragging when other tool is selected
+- Added Auto-Shrink option to Map section of a tilemap
+- Fixed issue when changing the Autotiling Mode or Group of a brush was resetting the selected tiles
+- Fixed removing tilemap brush when loading the scene (to avoid seeing the brush ghost in play by mistake)
+- Fixed destruction of the tilemap material when the tilemap is destroyed if this material is an asset
+- Fixed some cases where a tilemap chunk was in the wrong position (0,0,0) and tile prefabs were instantiated in the wrong place
+- Fixed a warning error when editing the map bounds using the handles
+- Fixed Shrink Map issues when using tiles with a prefab if the tilemap object is selected
+
+--- v1.3.7 ---
+- Performance improvements and reduction of memory allocations
+- Fixed some collider issues when using 2D colliders with PolygonCollider2D or when activating isTrigger
+- Fixed Sprites-Default material issue when using UNITY 5.4.0
+- Fixed Undo/Redo tilemap update
+- Fixed empty contacts array when receiving a collision event against a tileChunk with a MeshCollider
+
+--- v1.3.6 ---
+- Added an unselected color multiplier in the tilemap group to be multiplied by the unselected tilemaps tint color to highligh the selected tilemap
+- Added preview of tiles to be filled when using the fill tool
+- Added an option to disable Undo/Redo while painting, to improve the painting performance
+- Added multiediting support in tilemap inspector
+- Improvements in tilemap material management, now using Material Property Block, reducing the memory allocated.
+- Improvements in access to the tilemap data, using a dictionary for tilechunks
+- TileObjectBehaviour sets also tilemap sorting order and sorting layer were it is created
+- If only a single empty tile is selected from a tilemap, the brush will erase when painting
+- Fixed empty contacts array when receiving a collision event from a tileChunk with a MeshCollider
+- Fixed error when calling UpdateMesh for a tilemap during a collision event
+- Fixed issues when dragging a tilemap into a tilemap group
+- Fixed creating assets in the current project view, not in the root folder
+- Fixed some issues when creating a prefab of a tilemap or tilemap group
+- Fixed an issue selecting a tilemap from a tilemap group with a children that is not a tilemap
+- Fixed selecting an empty tile sets the selected tile to empty
+- Fixed updating the tileObjects transform when refreshing the tilemap after changing the CellSize
+- Fixed memory leaks when importing tmx maps
+
+--- v1.3.5 ---
+- Added TMX import options
+- Flipping Horizontally and Vertically properly (not in the opposite way)
+- Painting brush now copy the tilemap material instead using always the Sprite\Defult
+- When creating a tilemap prefab, the tilemap material is now linked to the prefab
+- Fixed missing tilemap prefab material when pressing play, making the preview to be pink
+- Fixed creation of a tilemap prefab from brush selection when the scene was not saved in disk
+- Fixed unregister tileset events properly in TilemapEditor when the tilemap is destroyed (causing a BrushBehaviour exception)
+
+--- v1.3.4 ---
+- Added Show Collider Normals in Tilemap Collider section when using 2D colliders
+- Added two new menu options: Create Tilemap From Selection and Create Prefab From Selection
+- Improved the random tile brush to help in the creation
+- Fixed some cases where random brushes where not painting any tile
+- Fixed showing the bottom right part of the tileset when scrollbars are visible
+- Fixed null exception when setting tile collider in the tile properties window
+- Fixed selecting the right tileset when selecting a tilemap from the scene
+
+--- v1.3.3 ---
+- Added warning message when using Polygon collider or activating isTrigger in the tilemap collider section
+- Added Tile Prefab Setting multi editing to change the prefab setting for a selection of tiles at the same time
+- Added "Show Tile Chunks" to unhide tilemap chunk gameobjects for debugging purposes
+- Added GetTile to Tilemap.cs to return the tileset tile displayed in a tilemap position
+- Added message OnTilePrefabCreation to be sent to the gameobject created for tiles with a prefab attached
+- Added TileobjectBehaviour (when attached to a gameobject used as tile prefab, it will change the sprite renderer to display the tile that has instantiated the prefab)
+- Added collider normal display in tile collider properties, to display the side were the collider is blocking other colliders to pass through.
+- SetParam in ParameterContainer now creates the parameter if it doesn't exist instead of throwing a warning
+- Fixed collider issues when a tile collider vertex was overlapping another vertex by removing duplicated.
+- Fixed: apply atlas texture to a tilemap when it becomes a prefab and it's dragged into the scene for the first time
+- Fixed "Display Brushes List" in tile Palette Window with a scroll bar
+- Fixed: keep tile flags when copying a single tile from a tilemap
+
+--- v1.3.2 ---
+- Added RemoveRedundantVertices and SplitSegments to tilemapChunks (improving performance and fixing lighting issues)
+- Added probability weights to tiles in a random brush
+- Added Randomize Flags mask in random brush to randomize selected flags when painting tiles
+- Added Tileset selector in Tile Palette Window
+- Now, right clicking a tile in the tilemap will first select the brush if any, and second time the tile painted by the brush will be selected.
+- Normal tiles, not painted with a brush, are now considered to be in group Default or group 0 in relation to brush autotiling mode "Group"
+- Fixed some bugs using brush groups
+- Fixed creation/destruction of prefabs asigned to tiles when they are painted using a brush
+- Fixed memory leak issue in TilemapGroupEditor by properly destroying the tilemapEditor object
+
+--- v1.3.1 ---
+- Added Erase method in Tilemap.cs 
+- Added user friendly methods to Tilemap.cs to set tile data using parameters for tileId, brushId and tile flags 
+- Added a dialog asking to keep or not the previous tile data when slicing the atlas tiles in the tileset 
+- Tile Properties and Tile Selection windows has been moved to a new create menu section "SuperTilemapEditor/Window" 
+- All tilemaps are now refreshed if refresh button is pressed when the tilemap group is selected 
+- Improved the tile slicing to be more precise calculating the right uv rect 
+- Hiding painting brush then mouse is not over the SceneView or when dragging a prefab into the SceneView 
+- Fixed precision error while dragging tile collider vertices in the Tile Property window 
+- Fixed collider 2D generation issue 
+- Fixed removing 2D colliders properly when switching to 3D after painting 
+- Fixed creation of tilechunk meshes twice when pressing play 
+- Fixed continuously enabling/disabling of painting brush 
+- Fixed copying the pixelSnap value when duplicating a tilemap 
+- Fixed AddParam and added parameter getters and AddValue helper methods in ParameterContainer.cs 
+- Fixed not painting in the tilemap when closing a popup over the scene view
+
+--- v1.3.0 ---
+
+- Added brush autotiling groups and autotiling modes: self, other and group
+- Added option create a tile view from brush selection to create tile prefabs
+- Added Tilemap Groups to manage several tilemap like if they were layers
+- Improved collider 2D generation to use less colliders
+- Added support for Polygon colliders in addition to Edge for tilemaps with 2D colliders
+- Display all selected tiles in tile collider properties and drawing a tile background to see the shape of tiles with transparency
+- Changed IBrush interface to support tiles with flags
+- Added the option to select a brush to draw a tile of another brush
+- Added the option to change brush tile flags (flip vertically and horizontally and 90� rotation)
+- Right click over a tile in the palette will display the tile property window
+- Added Is Trigger property to tilemap colliders
+- Added Refresh button in tilemap toolbar and shortcut key F5 for the same operation
+- Fixed carpet interior corners autotiling
+- Fixed refresh tilemap properly when changing cell size
+
+--- v1.2.2 ---
+
+- Fixed tile colliders when the tile is flipped and/or rotated
+- Fixed changing of tilemap material
+- Fixed double click issue when painting (double click is a fill action) and in the brush palette ( double click is for selecting the brush asset )
+- Fixed Carpet Brush autotiling
+- Tile collider type is now selected using a selection grid instead of a popup

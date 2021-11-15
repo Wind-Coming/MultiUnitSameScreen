@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d92a2a016244ac243b20556c180cb62e
+labels:
+- GameConfig
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: config
+  assetBundleVariant: 

@@ -1,0 +1,12 @@
+version: 2
+importPivots: 1
+tpsheetFileNames:
+- Assets/AssetsPackage/Battle/Deco/point/test.tpsheet
+- Assets/AssetsPackage/UI/Image/font/CustomFont.tpsheet
+textureFileNames:
+- Assets/AssetsPackage/Battle/Deco/point/test.png
+- Assets/AssetsPackage/UI/Image/font/CustomFont.png
+normalmapFileNames:
+- 
+- 
+enableDebugOutput: 0
