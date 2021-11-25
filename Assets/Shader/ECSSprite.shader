@@ -7,8 +7,13 @@
 	}
 	SubShader
 	{
-		Tags { "Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent" }
-        Blend SrcAlpha OneMinusSrcAlpha
+		Tags {"IgnoreProjector"="True" "RenderType"="Opeque" }
+        Blend SrcAlpha OneMinusSrcAlpha     
+        //ZWrite Off
+        //看情况而定还有其他优化方案，比如如果像素着色器比较复杂，可以通过PreZ的方式优化，用一个pass先写深度
+        //在当前demo中，一个pass的性能比较高，而且需要开深度写入
+        //虽然clip会打断earlyz，但clip也省略了一下blend的操作，所以目前这样的形式已经是最快了
+        //如果用blend且不开深度写入的话会消耗更多的时间
  
         Pass
         {
@@ -53,7 +58,7 @@
 			{
 				// sample the texture
 				fixed4 col = tex2D(_MainTex, i.uv);
-				clip(col.a - 0.1);
+				clip(col.a - 0.1);//会打断earlyz
 				return col;
 			}
 			ENDCG
